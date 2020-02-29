@@ -1,0 +1,26 @@
+  {
+    "name": "View as AMP",
+    "version": "1.0",
+    "description": "Switch a page to its amp version, if one is available.",
+    "permissions": ["activeTab", "declarativeContent"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "page_action": {
+      "default_icon": {
+        "16": "images/amp16.png",
+        "32": "images/amp32.png",
+        "48": "images/amp48.png",
+        "128": "images/amp128.png"
+      },
+      "default_title":  "Switch to amp version"
+    },
+    "icons": {
+      "16": "images/amp16.png",
+      "32": "images/amp32.png",
+      "48": "images/amp48.png",
+      "128": "images/amp128.png"
+    },
+    "manifest_version": 2
+  }
